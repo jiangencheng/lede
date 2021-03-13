@@ -280,7 +280,6 @@ push @mirrors, 'https://sources.openwrt.org';
 push @mirrors, 'https://mirror2.openwrt.org/sources';
 
 while (!-f "$target/$filename") {
-	print "@mirrors\n";
 	my $mirror = shift @mirrors;
 	$mirror or die "No more mirrors to try - giving up.\n";
 
