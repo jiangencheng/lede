@@ -129,8 +129,8 @@ jobs:
           CONFIG_PACKAGE_collectd-mod-ping=y
           CONFIG_PACKAGE_collectd-mod-cpufreq=y
           CONFIG_PACKAGE_collectd-mod-thermal=y
-          CONFIG_PACKAGE_automount =y
-          CONFIG_PACKAGE_autosamba =y
+          CONFIG_PACKAGE_automount=y
+          CONFIG_PACKAGE_autosamba=y
           EOF
 
           # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):
