@@ -101,12 +101,12 @@ jobs:
           CONFIG_PACKAGE_luci-app-statistics=y
           CONFIG_PACKAGE_luci-app-vnstat=y
           # CONFIG_PACKAGE_luci-app-amule is not set
-          # CONFIG_PACKAGE_luci-app-qbittorrent is not set
+          CONFIG_PACKAGE_luci-app-qbittorrent=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-ramfree is not set
-          CONFIG_PACKAGE_luci-app-samba=y
+          CONFIG_PACKAGE_luci-app-samba4=y
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
           # CONFIG_PACKAGE_luci-app-zerotier is not set
