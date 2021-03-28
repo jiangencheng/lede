@@ -101,7 +101,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-statistics=y
           CONFIG_PACKAGE_luci-app-vnstat=y
           # CONFIG_PACKAGE_luci-app-amule is not set
-          CONFIG_PACKAGE_luci-app-qbittorrent=y
+          # CONFIG_PACKAGE_luci-app-qbittorrent is not set
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
@@ -150,7 +150,7 @@ jobs:
           # CONFIG_FEED_rosy is not set
           
           CONFIG_TARGET_KERNEL_PARTSIZE=32
-          CONFIG_TARGET_ROOTFS_PARTSIZE=420
+          CONFIG_TARGET_ROOTFS_PARTSIZE=520
           EOF
 
           sed -i 's/^[ \t]*//g' ./.config
